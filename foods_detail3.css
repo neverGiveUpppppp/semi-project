@@ -158,7 +158,7 @@
     align-items: center;
     width: 100%;
     margin-bottom: 30px;
-    padding: 0 2%; /* 상하 좌우 : 좌우 각각 2%씩 주는 것*/
+    padding: 2% 2%; /* 상하 좌우 : 좌우 각각 2%씩 주는 것*/
     /* padding: 0 0 0 0 상 우 하 좌 */
     /* padding: 0 0 0 상 좌우 하 */
     /* padding: 5px 하나면 사방향 */
@@ -167,13 +167,30 @@
     border-radius: 10px;
 }
 /* 패딩, 마진 2% 위에서 제외된 96%의 크기를 다시 100%로 환산되서 다시 65/35% 나누는 것 */
-.article .articleSubTitle .text {
+.article .articleSubTitle .articleMainTop {
     flex-basis: 60%;
 }
+
+.article .reviewDateTie {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: none;
+    width: 20%;
+}
+
 
 .article .articleSubTitle .img {
     flex-basis: 35%;
 }
+
+.articleMainBotton p{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* border-style: double; */
+    min-height: 20rem;
+    padding: 2% 2%;
+}
+
 
 .carousel-inner {
     width: 60%;
