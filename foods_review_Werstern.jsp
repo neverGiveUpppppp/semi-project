@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 
     
     
@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>¸ÀÁ¶ - ¾ç½Ä</title>
+<title>ï¿½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½</title>
 
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -50,7 +50,7 @@
       <a class="link-secondary" href="#"> </a>
     </div>
     <div class="col-4 text-center">
-      <span class="logo_txt">´ëÇÑ¹Î±¹ ´ëÇ¥ ¸ÀÁý Ä¿¹Â´ÏÆ¼</span><a class="blog-header-logo" href="#" ><img class="logo_img" src="img/MZ logo.png" alt="logo"></a>
+      <span class="logo_txt">ï¿½ï¿½ï¿½Ñ¹Î±ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ Ä¿ï¿½Â´ï¿½Æ¼</span><a class="blog-header-logo" href="#" ><img class="logo_img" src="img/MZ logo.png" alt="logo"></a>
     </div>
     <div class="col-4 d-flex justify-content-end align-items-center">
       <a class="link-secondary" href="#" aria-label="Search">
@@ -65,12 +65,12 @@
 
 <div class="bbb nav-scroller py-1 mb-2 ">
   <nav class="nav d-flex justify-content-around" >
-    <a class="p-2 nav_css" href="#">ÇÑ½Ä</a>
-    <a class="p-2 nav_cssSelect" href="#">Áß½Ä</a>
-    <a class="p-2 nav_css" href="#">¾ç½Ä</a>
-    <a class="p-2 nav_css" href="#">ÀÏ½Ä</a>
-    <a class="p-2 nav_css" href="#">µðÀúÆ®</a>
-    <a class="p-2 nav_css" href="#">°øÁö»çÇ×</a>
+    <a class="p-2 nav_css" href="#">ï¿½Ñ½ï¿½</a>
+    <a class="p-2 nav_cssSelect" href="#">ï¿½ß½ï¿½</a>
+    <a class="p-2 nav_css" href="#">ï¿½ï¿½ï¿½</a>
+    <a class="p-2 nav_css" href="#">ï¿½Ï½ï¿½</a>
+    <a class="p-2 nav_css" href="#">ï¿½ï¿½ï¿½ï¿½Æ®</a>
+    <a class="p-2 nav_css" href="#">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a>
   </nav>
 </div>
 </div>
@@ -80,24 +80,24 @@
   
 <div class="p-4 p-md-5 mb-4 text-white bg-dark">
 
-  ÀÌ¹ÌÁö Ãß°¡
+  ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 </div>
 
 <div class="cardContainer">
 
   <div class="cardBox">
     <div class="">
-      <img src="img/review03 rubijung.png" class="img-fluid img_cut"  alt="ÁßÈ­¿ä¸® ÆÈ°ø ¸®ºä">
+      <img src="img/review03 rubijung.png" class="img-fluid img_cut"  alt="ï¿½ï¿½È­ï¿½ä¸® ï¿½È°ï¿½ ï¿½ï¿½ï¿½ï¿½">
     </div>
     <div class="cardBoxText">
       <div class="card-body">
-        <strong class="mb-lg-1 reviewCategory">Áß½Ä</strong>
-        <h5 class="card-title cardTitle">ÁßÈ­¿ä¸® ÆÈ°ø</h5>
-        <p class="card-text mb-1 reviewDate">22.02.22 | Á¶È¸¼ö 50È¸</p>
-        <p class="card-text mb-auto reviewNormal">À§Ä¡ : ¼­¿ï °ü¾Ç±¸ ½Å¸²µ¿ 10-621 ÁöÇÏ 1Ãþ</p>
-        <p class="card-text mt-3 mb-auto reviewFeatureTitle">°£´Ü ¼Ò°³</p>
-        <p class="card-text reviewNormal">ÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·á
-          ÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·á
+        <strong class="mb-lg-1 reviewCategory">ï¿½ß½ï¿½</strong>
+        <h5 class="card-title cardTitle">ï¿½ï¿½È­ï¿½ä¸® ï¿½È°ï¿½</h5>
+        <p class="card-text mb-1 reviewDate">22.02.22 | ï¿½ï¿½È¸ï¿½ï¿½ 50È¸</p>
+        <p class="card-text mb-auto reviewNormal">ï¿½ï¿½Ä¡ : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç±ï¿½ ï¿½Å¸ï¿½ï¿½ï¿½ 10-621 ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½</p>
+        <p class="card-text mt-3 mb-auto reviewFeatureTitle">ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½</p>
+        <p class="card-text reviewNormal">Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+          Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
         </p>
       </div>
     </div>
@@ -106,16 +106,16 @@
 
     <div class="cardBox">
       <div class="cardImg">
-        <img src="img/review03 rubijung.png" class="img-fluid  img_cut" alt="ÁßÈ­¿ä¸® ÆÈ°ø ¸®ºä">
+        <img src="img/review03 rubijung.png" class="img-fluid  img_cut" alt="ï¿½ï¿½È­ï¿½ä¸® ï¿½È°ï¿½ ï¿½ï¿½ï¿½ï¿½">
       </div>
       <div class="cardTxt">
         <div class="card-body">
-          <strong class="mb-lg-1 reviewCategory">Áß½Ä</strong>
-          <h5 class="card-title cardTitle">Â¥Àå¸éÁý</h5>
-          <p class="card-text mb-1 reviewDate">20.02.10 | Á¶È¸¼ö 50È¸</p>
-          <p class="card-text mb-auto reviewNormal">À§Ä¡ : ¼­¿ï °ü¾Ç±¸ ½Å¿ø·Î 16 1Ãþ</p>
-          <p class="card-text mt-3 mb-auto reviewFeatureTitle">°£´Ü ¼Ò°³</p>
-          <p class="card-text reviewNormal">ÀÌº¸´Ù ½Ò ¼ö ÀÖÀ»±î? ±ØÇÑÀÇ °¡¼ººñ</p>
+          <strong class="mb-lg-1 reviewCategory">ï¿½ß½ï¿½</strong>
+          <h5 class="card-title cardTitle">Â¥ï¿½ï¿½ï¿½ï¿½ï¿½</h5>
+          <p class="card-text mb-1 reviewDate">20.02.10 | ï¿½ï¿½È¸ï¿½ï¿½ 50È¸</p>
+          <p class="card-text mb-auto reviewNormal">ï¿½ï¿½Ä¡ : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç±ï¿½ ï¿½Å¿ï¿½ï¿½ï¿½ 16 1ï¿½ï¿½</p>
+          <p class="card-text mt-3 mb-auto reviewFeatureTitle">ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½</p>
+          <p class="card-text reviewNormal">ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</p>
         </div>
       </div>
     </div>
@@ -123,17 +123,17 @@
 
     <div class="cardBox">
     <div class="">
-      <img src="img/review03 rubijung.png" class="img-fluid img_cut"  alt="ÁßÈ­¿ä¸® ÆÈ°ø ¸®ºä">
+      <img src="img/review03 rubijung.png" class="img-fluid img_cut"  alt="ï¿½ï¿½È­ï¿½ä¸® ï¿½È°ï¿½ ï¿½ï¿½ï¿½ï¿½">
     </div>
     <div class="cardBoxText">
       <div class="card-body">
-        <strong class="mb-lg-1 reviewCategory">Áß½Ä</strong>
-        <h5 class="card-title cardTitle">ÁßÈ­¿ä¸® ÆÈ°ø</h5>
-        <p class="card-text mb-1 reviewDate">22.02.22 | Á¶È¸¼ö 50È¸</p>
-        <p class="card-text mb-auto reviewNormal">À§Ä¡ : ¼­¿ï °ü¾Ç±¸ ½Å¸²µ¿ 10-621 ÁöÇÏ 1Ãþ</p>
-        <p class="card-text mt-3 mb-auto reviewFeatureTitle">°£´Ü ¼Ò°³</p>
-        <p class="card-text reviewNormal">ÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·á
-          ÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·áÇªÁüÇÑ ¾ç°ú ¾Æ³¦¾ø´Â Àç·á
+        <strong class="mb-lg-1 reviewCategory">ï¿½ß½ï¿½</strong>
+        <h5 class="card-title cardTitle">ï¿½ï¿½È­ï¿½ä¸® ï¿½È°ï¿½</h5>
+        <p class="card-text mb-1 reviewDate">22.02.22 | ï¿½ï¿½È¸ï¿½ï¿½ 50È¸</p>
+        <p class="card-text mb-auto reviewNormal">ï¿½ï¿½Ä¡ : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç±ï¿½ ï¿½Å¸ï¿½ï¿½ï¿½ 10-621 ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½</p>
+        <p class="card-text mt-3 mb-auto reviewFeatureTitle">ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½</p>
+        <p class="card-text reviewNormal">Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+          Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çªï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Æ³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
         </p>
       </div>
     </div>
@@ -141,16 +141,16 @@
   
     <div class="cardBox">
       <div class="">
-        <img src="img/MZ logo.png" class="img-fluid img_cut" alt="ÁßÈ­¿ä¸® ÆÈ°ø ¸®ºä">
+        <img src="img/MZ logo.png" class="img-fluid img_cut" alt="ï¿½ï¿½È­ï¿½ä¸® ï¿½È°ï¿½ ï¿½ï¿½ï¿½ï¿½">
       </div>
       <div class="">
         <div class="card-body">
-          <strong class="mb-lg-1 reviewCategory">Áß½Ä</strong>
-          <h5 class="card-title cardTitle">Â¥Àå¸éÁý</h5>
-          <p class="card-text mb-1 reviewDate">20.02.10 | Á¶È¸¼ö 50È¸</p>
-          <p class="card-text mb-auto reviewNormal">À§Ä¡ : ¼­¿ï °ü¾Ç±¸ ½Å¿ø·Î 16 1Ãþ</p>
-          <p class="card-text mt-3 mb-auto reviewFeatureTitle">°£´Ü ¼Ò°³</p>
-          <p class="card-text reviewNormal">ÀÌº¸´Ù ½Ò ¼ö ÀÖÀ»±î? ±ØÇÑÀÇ °¡¼ººñ</p>
+          <strong class="mb-lg-1 reviewCategory">ï¿½ß½ï¿½</strong>
+          <h5 class="card-title cardTitle">Â¥ï¿½ï¿½ï¿½ï¿½ï¿½</h5>
+          <p class="card-text mb-1 reviewDate">20.02.10 | ï¿½ï¿½È¸ï¿½ï¿½ 50È¸</p>
+          <p class="card-text mb-auto reviewNormal">ï¿½ï¿½Ä¡ : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç±ï¿½ ï¿½Å¿ï¿½ï¿½ï¿½ 16 1ï¿½ï¿½</p>
+          <p class="card-text mt-3 mb-auto reviewFeatureTitle">ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½</p>
+          <p class="card-text reviewNormal">ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</p>
         </div>
       </div>
     </div>
@@ -182,7 +182,7 @@
 
 <button type="button" class="btn btn-sm Writing" 
         style="float: right;"
-        data-bs-toggle="button" autocomplete="off">±Û¾²±â
+        data-bs-toggle="button" autocomplete="off">ï¿½Û¾ï¿½ï¿½ï¿½
 </button>
 
 

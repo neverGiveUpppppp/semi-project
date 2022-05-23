@@ -2,20 +2,6 @@
 
 .img_cut{ width: 100%; height: 100%; object-fit: cover; margin: auto; }
 
-.carousel-inner{
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 400px;
-}
-
-#carouselExampleIndicators{
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 400px;
-    /* max-height: 400px; */
-}
 
 
 .cardContainer {
@@ -29,11 +15,10 @@
 
 .cardContainer > div {
     flex-basis: 49%;
-    height: 300px;
 }
-
-.cardContainer .cardBox {
-    display: flex;
+/* / 경로지정 느낌(부모) */
+.cardContainer .cardBox { /*카드 컨테이너 아래있는 카드박스에게만 적용. 카드박스 자신과 아래있는 모든 후손까지 적용 */
+    display: flex; /* 기본적으로 모든 후손에게 적용인건 맞으나 글씨크기,색상등 전체적용. 플렉스 같은 배치 같은 경우는 자식에게만 적용*/
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -41,13 +26,12 @@
     /* flex-wrap: nowrap; */
 }
 
-/* 
-.cardContainer .cardBox > div {
-    flex-basis: 90%; /* 플렉스 아이템의 초기 크기 지정. box-sizing을 따로 지정하지 않는다면 콘텐츠 박스의 크기를 변경*/
-    /* height: 250px; 
+.cardContainer .cardBox > div { /* 카드 박스 바로 아래있는 자식 div 전부 적용 */
+    flex-basis: 50%; /* 플렉스 아이템의 초기 크기 지정. box-sizing을 따로 지정하지 않는다면 콘텐츠 박스의 크기를 변경*/
+    height: 250px;
 }
 
-*/
+
 
 .cardBoxText{
     /* white-space: nowrap;  */
@@ -143,76 +127,10 @@
     .Writing{
         background-color: rgb(240, 128, 0); color:#fff; border-color: rgb(240, 128, 0);
     }
-    
-
-
-
-
+    .Writing2{
+        border-color: rgb(240, 128, 0);
+    }
 
 
 
     
-.article .articleSubTitle {
-    display: flex;
-    justify-content: space-between;  /* 스페이스 비트윈 쓰면, flex-basis를 쓰고 남은 영역을 사이 여백으로 준다  */
-    align-items: center;
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 2% 2%; /* 상하 좌우 : 좌우 각각 2%씩 주는 것*/
-    /* padding: 0 0 0 0 상 우 하 좌 */
-    /* padding: 0 0 0 상 좌우 하 */
-    /* padding: 5px 하나면 사방향 */
-    /* 패딩, 마진 둘 다 적용되는 것 */
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
-/* 패딩, 마진 2% 위에서 제외된 96%의 크기를 다시 100%로 환산되서 다시 65/35% 나누는 것 */
-.article .articleSubTitle .articleMainTop {
-    flex-basis: 60%;
-}
-
-/* <p>블록요소로 세팅한 css */
-/* 
-.article .reviewDateTie {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: none;
-    width: 20%;
-} */
-
-
-.article .articleSubTitle .img {
-    flex-basis: 35%;
-}
-
-.articleMainBotton p{
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    /* border-style: double; */
-    min-height: 20rem;
-    padding: 2% 2%;
-}
-
-
-.carousel-inner {
-    width: 60%;
-    height: 400px;
-    margin: 0 auto;
-    min-width: auto;
-    min-height: auto;
-}
-
-.btnBox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    /* background-color: rgb(240, 128, 0); */
-    background-color: #000;
-    border-radius: 50%;
-}
-
-.carousel-item img {
-    width: 100%; height: 100%; object-fit: cover; margin: auto;
-}
