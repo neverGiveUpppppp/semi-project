@@ -35,18 +35,19 @@ CREATE TABLE MEMBER (
   	STATUS VARCHAR2(1) DEFAULT 'Y'
 					             
 );
-
-INSERT INTO MZ.MEMBER VALUES ('admin', '1234', '관리자',  '010-1111-2222', 'admin@naver.com', 'M', '서울시 분당구 정자동', '90/02/06', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user01', 'pass01', '최기현', '010-1111-1111', 'itkw87@naver.com', 'M', '성남시 분당구 판교동', '95/09/25', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user02', 'pass02', '이재환', '010-2222-5555', 'user02@naver.com', 'M', '인천시 부평구 부개동', '90/02/06' , SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user03', 'pass03', '정다솜', '010-3333-4444', 'user03@naver.com', 'W', '광주시 서구 치평동', '90/02/06', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user04', 'pass04', '최신영', '010-5555-4444', 'user04@naver.com', 'M', '서울시 양천구 목동', '88/06/25', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user05', 'pass05', '김철수', '010-5555-4444', 'user05@naver.com', 'M', '서울시 양천구 목동', '90/08/06', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user06', 'pass06', '최철수', '010-5555-4444', 'user06@naver.com', 'M', '서울시 양천구 목동', '98/05/08', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user07', 'pass07', '박철수', '010-5555-4444', 'user07@naver.com', 'M', '서울시 양천구 목동', '96/02/06', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user08', 'pass08', '이철수', '010-5555-4444', 'user08@naver.com', 'M', '서울시 양천구 목동', '93/04/21', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user09', 'pass09', '김영희', '010-5555-4444', 'user09@naver.com', 'W', '서울시 양천구 목동', '97/02/13', SYSDATE, SYSDATE, DEFAULT);
-INSERT INTO MZ.MEMBER VALUES ('user10', 'pass10', '최영희', '010-5555-4444', 'user10@naver.com', 'W', '서울시 양천구 목동', '99/03/27', SYSDATE, SYSDATE, DEFAULT);
+-- admin 1234
+-- user01 pass01,02,03...
+INSERT INTO MZ.MEMBER VALUES ('admin', '1ARVn2Auq2/WAqx2gNrL+q3RNjAzXpUfCXrzkA6d4Xa22yhRLy4AC50E+6UTPoscbo31nbOoq51gvkuXzJ6B2w==', '관리자',  '010-1111-2222', 'admin@naver.com', 'M', '서울시 분당구 정자동', '90/02/06', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user01', '02DeqFdlQnpEbQRZqnvpfK7a9sO9iISEV7Hzxntivto23dJ/i16UMur0ACYxwsfAxFwzfn5yarbQnsbAtkCJAg==', '최기현', '010-1111-1111', 'itkw87@naver.com', 'M', '성남시 분당구 판교동', '95/09/25', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user02', 'ybuT5RE3Qb/bE69MynKRp21UqUH7gwxtO8uOGrOsKqgPt95nPzymK/si9YTYCIxP0CfaqS2StvpiQ0W5UwyCVg==', '이재환', '010-2222-5555', 'user02@naver.com', 'M', '인천시 부평구 부개동', '90/02/06' , SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user03', 'iplxewLli7qPQF+vVHtB4loDo/E9Zw9efFh7eEh1NI+MrrMXTVqtmYEe/HBLnduhQ2VTnkV+2AkVdHiNnxR8mg==', '정다솜', '010-3333-4444', 'user03@naver.com', 'W', '광주시 서구 치평동', '90/02/06', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user04', 'Z0U+iqhgJz33L+h4J/Jk7/gJY7g6fOsxJArSl02c5fjgD/58eBUJQcSpWzNxpOtMVwLF7m0OKnOr1GHnE6vIrg==', '최신영', '010-5555-4444', 'user04@naver.com', 'M', '서울시 양천구 목동', '88/06/25', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user05', '1Kq7ah9oGObMip407Jocgb3og45it48imRhxh6iM3Z0cOUQaRzie2GOdwtqy8hDr+0D1f1iCbS6n/qoMj6/m6Q==', '김철수', '010-5555-4444', 'user05@naver.com', 'M', '서울시 양천구 목동', '90/08/06', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user06', 'rVlGlBOrURd1D9CuJb0/fCPZopDofiPqovLD5GkJQ10BjlGpAbtIy8w3an/S2kgzT7AiZx2V4T1i/1qxtHkQ2w==', '최철수', '010-5555-4444', 'user06@naver.com', 'M', '서울시 양천구 목동', '98/05/08', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user07', 'oLIyZ7vFfMfiu/0G60rd+itn8/eFuZeJfAjCJWtyNIY/9n/GNAAUxWtEGGIsTwdNa6UsNY4PmDZeS+pFlh5tYA==', '박철수', '010-5555-4444', 'user07@naver.com', 'M', '서울시 양천구 목동', '96/02/06', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user08', 'PNWgU7GoZpRuInfdPSUXs9+SQuwpWc7ufVRlGmJ5P2/LG6QlsB33JpH+xWuJcOzidgFMwaz511Sb8yioAp6rjA==', '이철수', '010-5555-4444', 'user08@naver.com', 'M', '서울시 양천구 목동', '93/04/21', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user09', 'mQoDu0fflx/wFACAbYtXqyG4ZWTpc8gZyelWj/dDw9gHMKv7Jd6Yiy1d1SyV0pM80Y2QTXC2DewnrBq8DCtgfA==', '김영희', '010-5555-4444', 'user09@naver.com', 'W', '서울시 양천구 목동', '97/02/13', SYSDATE, SYSDATE, DEFAULT);
+INSERT INTO MZ.MEMBER VALUES ('user10', 'Ca7ahwrNjNwfyslTA0VlNjt6rfe2f5Fv/wSs3TLI5d2jpgyTi1SUv/v4te0ZJEA6hIaLEyuveNZxBlFqqc22MQ==', '최영희', '010-5555-4444', 'user10@naver.com', 'W', '서울시 양천구 목동', '99/03/27', SYSDATE, SYSDATE, DEFAULT);
 
 
 --------------------------------------------------
@@ -120,6 +121,17 @@ INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'도림','서울 중구 을지로 30 롯데호
 INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'쟈니덤플링','서울 용산구 보광로59길 5','02-790-8830','만두(덤플링) 전문점','상세보기 내용','Y');
 INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'교동짬뽕','서울 구로구 보광로59길 5','02-790-8830','짬뽕으로 유명한 그 곳. 매운맛 좀 볼래?','상세보기 내용','Y');
 INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'황궁쟁반 거목','서울특별시 관악구 신림동 난우길 35','02-859-0035','매콤한 쟁반 짜장이 유명한 곳','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'24시 서울 밥집','서울특별시 관악구 서원동 관천로 36-1','02-355-0135','너무 저렴한 가격으로 항상 북적이는 곳','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'지화자','서울특별시 종로구 자하문로 125','02-485-8265','높은 퀄리티와 깔끔하고 정갈한 음식. 미팅에 추천','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'산들애밥상','서울특별시 금천구 독산동 독산로 178-1','02-743-3865','웰빙 밦방을 추구하는 곳. 코다리 정식 드셔보시라','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'정원쌈밥보리밥','서울특별시 관악구 신림동','02-887-6454','보쌈 양도 많고 우렁쌈장은 일품, 밥, 반찬 추가는 무료!','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'감나무집','서울특별시 관악구 서원동 관천로 36-1','02-882-0077','보리굴비 정식이 일품. 정이 있어요','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'푸짐한식당','서울특별시 관악구 서원동 관천로 36-1','02-355-0135','아침,점심,저녁 언제나 부담없이 속이 편한 곳','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'정가네식당','서울특별시 관악구 서원동 관천로 36-1','02-875-3018','너무 저렴한 가격으로 항상 북적이는 곳','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'한송정','경기도 안양 부림로 156 6층','031-424-8599','너무 저렴한 가격으로 항상 북적이는 곳','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'이가네','서울특별시 관악구 서원동 관천로 36-1','02-355-0135','한정식의 정수','상세보기 내용','Y');
+INSERT INTO RESTAURANT VALUES(SEQ_RID.NEXTVAL,'한정식','서울특별시 관악구 행복동 행복로 36-1','02-355-0135','너무 저렴한 가격으로 항상 북적이는 곳','상세보기 내용','Y');
+
 
 
 --------------------------------------------------
@@ -150,8 +162,17 @@ INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '탕수육', '중식', 7, 'Y');
 INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '만두', '중식', 8, 'Y');
 INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '짬뽕', '중식', 9, 'Y');
 INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '쟁반짜장', '중식', 10, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '한정식 코스', '한식', 11, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '코다리 정식', '한식', 12, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '보쌈 우렁쌈장', '한식', 13, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '보리굴비', '한식', 14, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '정식', '한식', 15, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '제육볶음', '한식', 16, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '쌈밥', '한식', 17, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '보리밥', '한식', 18, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '김치찌개', '한식', 19, 'Y');
+INSERT INTO FOOD VALUES(SEQ_FID.NEXTVAL, '된장찌개', '한식', 20, 'Y');
 
-select * from user_sequences;
 
 --------------------------------------------------
 --------------     BOARD 관련	------------------	
@@ -167,7 +188,7 @@ CREATE TABLE BOARD (
 	REF_USER_ID VARCHAR2(30),         	
 	BOARD_COUNT	NUMBER	DEFAULT 0, -- 조회수
 	BOARD_CONTENT	VARCHAR2(4000)	NOT NULL,
-	BOARD_DATE	DATE	NULL,    
+	BOARD_DATE	DATE DEFAULT SYSDATE,    
   	MODIFY_DATE DATE DEFAULT SYSDATE,             
 	STATUS VARCHAR2(1) DEFAULT 'Y' CHECK (STATUS IN('Y', 'N')),   --기존꺼 변경
 	CONSTRAINT BO_USI_FK FOREIGN KEY (REF_USER_ID) REFERENCES MEMBER(USER_ID),
