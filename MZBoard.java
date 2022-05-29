@@ -8,6 +8,7 @@ public class MZBoard {
 	public int boardType;
 	public String boardTitle;
 	public int restaurantNo;
+	public String restaurantName;
 	public String restaurantAddress;
 	public String restaurantPhone;
 	public String restaurantIntro;
@@ -17,26 +18,49 @@ public class MZBoard {
 	public String foodType;
 	public String userId;
 	public int boardCount;
-	public int boardContent;
+	public String boardContent;
 	public Date boardDate;
 	public Date modifyDate;
-	public String status;			// 
+	public String status;			 
+	
+	
 	
 	public MZBoard() {}
 
-	public MZBoard(int boardNo, int boardType, String boardTitle, int restaurantNo, int foodNo, String userId,
-			int boardContent, Date boardDate, Date modifyDate, String status) {
+	
+	public MZBoard(int boardNo, int boardType, String boardTitle, int restaurantNo, String restaurantName,
+			String restaurantAddress, String restaurantPhone, String restaurantIntro, String restaurantContent,
+			int foodNo, String foodName, String foodType, String userId, int boardCount, String boardContent,
+			Date boardDate, Date modifyDate, String status) {
 		super();
 		this.boardNo = boardNo;
 		this.boardType = boardType;
 		this.boardTitle = boardTitle;
 		this.restaurantNo = restaurantNo;
+		this.restaurantName = restaurantName;
+		this.restaurantAddress = restaurantAddress;
+		this.restaurantPhone = restaurantPhone;
+		this.restaurantIntro = restaurantIntro;
+		this.restaurantContent = restaurantContent;
 		this.foodNo = foodNo;
+		this.foodName = foodName;
+		this.foodType = foodType;
 		this.userId = userId;
+		this.boardCount = boardCount;
 		this.boardContent = boardContent;
 		this.boardDate = boardDate;
 		this.modifyDate = modifyDate;
 		this.status = status;
+	}
+
+	@Override
+	public String toString() {
+		return "MZBoard [boardNo=" + boardNo + ", boardType=" + boardType + ", boardTitle=" + boardTitle
+				+ ", restaurantNo=" + restaurantNo + ", restaurantName=" + restaurantName + ", restaurantAddress="
+				+ restaurantAddress + ", restaurantPhone=" + restaurantPhone + ", restaurantIntro=" + restaurantIntro
+				+ ", restaurantContent=" + restaurantContent + ", foodNo=" + foodNo + ", foodName=" + foodName
+				+ ", foodType=" + foodType + ", userId=" + userId + ", boardCount=" + boardCount + ", boardContent="
+				+ boardContent + ", boardDate=" + boardDate + ", modifyDate=" + modifyDate + ", status=" + status + "]";
 	}
 
 	public int getBoardNo() {
@@ -71,12 +95,68 @@ public class MZBoard {
 		this.restaurantNo = restaurantNo;
 	}
 
+	public String getRestaurantName() {
+		return restaurantName;
+	}
+
+	public void setRestaurantName(String restaurantName) {
+		this.restaurantName = restaurantName;
+	}
+
+	public String getRestaurantAddress() {
+		return restaurantAddress;
+	}
+
+	public void setRestaurantAddress(String restaurantAddress) {
+		this.restaurantAddress = restaurantAddress;
+	}
+
+	public String getRestaurantPhone() {
+		return restaurantPhone;
+	}
+
+	public void setRestaurantPhone(String restaurantPhone) {
+		this.restaurantPhone = restaurantPhone;
+	}
+
+	public String getRestaurantIntro() {
+		return restaurantIntro;
+	}
+
+	public void setRestaurantIntro(String restaurantIntro) {
+		this.restaurantIntro = restaurantIntro;
+	}
+
+	public String getRestaurantContent() {
+		return restaurantContent;
+	}
+
+	public void setRestaurantContent(String restaurantContent) {
+		this.restaurantContent = restaurantContent;
+	}
+
 	public int getFoodNo() {
 		return foodNo;
 	}
 
 	public void setFoodNo(int foodNo) {
 		this.foodNo = foodNo;
+	}
+
+	public String getFoodName() {
+		return foodName;
+	}
+
+	public void setFoodName(String foodName) {
+		this.foodName = foodName;
+	}
+
+	public String getFoodType() {
+		return foodType;
+	}
+
+	public void setFoodType(String foodType) {
+		this.foodType = foodType;
 	}
 
 	public String getUserId() {
@@ -87,11 +167,19 @@ public class MZBoard {
 		this.userId = userId;
 	}
 
-	public int getBoardContent() {
+	public int getBoardCount() {
+		return boardCount;
+	}
+
+	public void setBoardCount(int boardCount) {
+		this.boardCount = boardCount;
+	}
+
+	public String getBoardContent() {
 		return boardContent;
 	}
 
-	public void setBoardContent(int boardContent) {
+	public void setBoardContent(String boardContent) {
 		this.boardContent = boardContent;
 	}
 
@@ -118,14 +206,11 @@ public class MZBoard {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-
-	@Override
-	public String toString() {
-		return "MZ [boardNo=" + boardNo + ", boardType=" + boardType + ", boardTitle=" + boardTitle + ", restaurantNo="
-				+ restaurantNo + ", foodNo=" + foodNo + ", userId=" + userId + ", boardContent=" + boardContent
-				+ ", boardDate=" + boardDate + ", modifyDate=" + modifyDate + ", status=" + status + "]";
-	}
 	
 	
 
+	
+	
+	
+	
 }

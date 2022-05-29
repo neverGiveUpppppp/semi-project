@@ -2,11 +2,11 @@ package board.model.vo;
 
 public class Pagination {
 	
-	private int BoardCount;	 // 총 게시물 수
+	private int boardCount;	 // 총 게시물 수
 	private int currentPage; // cp
 	private int pageLimit;
 	private int boardLimit;
-	private int maxPage;
+	private int lastPage;
 	private int startPage;
 	private int endPage;
 
@@ -14,14 +14,14 @@ public class Pagination {
 	public Pagination() {}
 
 
-	public Pagination(int boardCount, int currentPage, int pageLimit, int boardLimit, int maxPage, int startPage,
+	public Pagination(int boardCount, int currentPage, int pageLimit, int boardLimit, int lastPage, int startPage,
 			int endPage) {
 		super();
-		BoardCount = boardCount;
+		this.boardCount = boardCount;
 		this.currentPage = currentPage;
 		this.pageLimit = pageLimit;
 		this.boardLimit = boardLimit;
-		this.maxPage = maxPage;
+		this.lastPage = lastPage;
 		this.startPage = startPage;
 		this.endPage = endPage;
 	}
@@ -29,19 +29,19 @@ public class Pagination {
 
 	@Override
 	public String toString() {
-		return "Pagination [BoardCount=" + BoardCount + ", currentPage=" + currentPage + ", pageLimit=" + pageLimit
-				+ ", boardLimit=" + boardLimit + ", maxPage=" + maxPage + ", startPage=" + startPage + ", endPage="
+		return "Pagination [boardCount=" + boardCount + ", currentPage=" + currentPage + ", pageLimit=" + pageLimit
+				+ ", boardLimit=" + boardLimit + ", lastPage=" + lastPage + ", startPage=" + startPage + ", endPage="
 				+ endPage + "]";
 	}
 
 
 	public int getBoardCount() {
-		return BoardCount;
+		return boardCount;
 	}
 
 
 	public void setBoardCount(int boardCount) {
-		BoardCount = boardCount;
+		this.boardCount = boardCount;
 	}
 
 
@@ -75,13 +75,13 @@ public class Pagination {
 	}
 
 
-	public int getMaxPage() {
-		return maxPage;
+	public int getLastPage() {
+		return lastPage;
 	}
 
 
-	public void setMaxPage(int maxPage) {
-		this.maxPage = maxPage;
+	public void setLastPage(int lastPage) {
+		this.lastPage = lastPage;
 	}
 
 
@@ -103,6 +103,10 @@ public class Pagination {
 	public void setEndPage(int endPage) {
 		this.endPage = endPage;
 	}
+
+
+	
+	
 	
 	
 }
